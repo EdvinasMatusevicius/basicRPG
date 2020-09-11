@@ -7,7 +7,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-    <script src="/BaigiamasisProjektas/JS/mainPage/errorHandler.js"></script>
-    <script src="/BaigiamasisProjektas/JS/mainPage/mainPage.js"></script>
+    <script src="JS/mainPage/errorHandler.js"></script>
+    <script src="JS/mainPage/mainPage.js"></script>
 </body>
 </html>

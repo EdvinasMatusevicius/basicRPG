@@ -1,7 +1,10 @@
 <?php require 'header.php';
 $registerOpen=true;
 $logInOpen=true;
+// include_once __DIR__ . '/vendor/autoload.php';
 
+// $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+// $dotenv->load();
 ?>
 <main>
   <div class="nav-bar">
