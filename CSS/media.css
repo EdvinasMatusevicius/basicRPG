@@ -1,0 +1,39 @@
+/* Nuo SM */
+@media (min-width:576px){
+.code-snipet{
+    display:none;
+}
+}
+/* Nuo MD*/
+@media (min-width:768px){
+    .nav-bar {
+        flex-direction:row;
+        justify-content: space-around;
+    }
+    .nav-buttons-list {
+        margin:0px;
+        padding:0px;
+        flex-direction: row;
+    }
+}
+/* Nuo LG */
+@media (min-width:992px){
+    .nav-buttons-list {
+        align-items: flex-start;
+    }
+    .nav-buttons-list li {
+        margin:10px 0px;
+       width:20%;
+    }
+    .nav-buttons{
+        width: 100%;
+    }
+    .nav-buttons-list li {
+        margin:30px 0px;
+       width:150px;
+    }
+}
+
+@media (min-width:1200px){
+  
+}

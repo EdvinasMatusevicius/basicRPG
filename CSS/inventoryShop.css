@@ -1,0 +1,105 @@
+/* SHOP SKILTIS */
+.shop-container{
+    font-family: game;
+    word-spacing: 200%;
+    text-align: center;
+    color:rgb(82, 54, 36);
+    width:800px;
+    height:500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.char-info-icon-container{
+    position:relative;
+    width: 800px;
+    height: 500px;
+}
+.char-info-icon{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.char-info-icon:hover{
+    transform: scale(1.05);
+}
+.empty-inv{
+    text-align: center;
+}
+.btn-buy{
+    font-size: 15px;
+    border-radius:5px;
+    width: 210px;
+    height:70px;
+    margin-top:20px;
+}
+.table-container{
+    width:90%;
+    height:80%;
+    background-color:  rgb(214, 142, 94);
+    border:5px outset rgb(155, 97, 59);
+    margin:0 auto;
+    position: relative;
+}
+.table-container table{
+    width:95%;
+}
+.item-square{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+
+.inv-coins{
+    font-family: game;
+    font-size: 150%;
+    position: absolute;
+    bottom:10px;
+    right:10px;
+}
+.inv-quit{
+    position: absolute;
+    top:10px;
+    right:3px;
+}
+.btn-buy img{
+    width:15px;
+    height:20px;
+}
+.shop-table-container{
+    width:800px;
+    height:400px;
+}
+/* CHARACTER INFO SKILTIS */
+.char-info-container{
+    width:800px;
+    height:500px;
+    color:rgb(82, 54, 36);
+    background-color:   rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.char-stats-container{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color:  rgb(214, 142, 94);
+    border:5px outset rgb(155, 97, 59);
+    width:40%;
+    height: 80%;
+}
+.char-stats{
+    width:141px;
+}
+.char-inv-container{
+    display:flex;
+    align-items: center;
+    width:50%;
+    height:100%
+}

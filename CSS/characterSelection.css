@@ -1,0 +1,32 @@
+.char-select{
+    background-color: rgb(161, 96, 48);
+    position: relative;
+    overflow-y: scroll; overflow-x:hidden;
+    font-family: game;
+    word-spacing: 200%;
+    font-size: 120%;
+}
+.char-list {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.char-list a {
+    border:3px solid rgb(124, 85, 12);
+    background-color: rgb(206, 138, 89);
+    padding-top: 3%;
+    width:350px;
+    text-decoration: none;
+    color: #3b2929;
+    text-align: center;
+    transition: all .2s ease-in-out;
+}
+.char-list a:hover{
+    transform: scale(1.05);
+}
+.char-list img{
+    border:5px solid #3b2929;
+}

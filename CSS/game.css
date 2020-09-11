@@ -1,0 +1,139 @@
+@font-face {
+    font-family: game;
+    src: url('../fonts/ARCADECLASSIC.TTF') format("truetype");
+}
+
+body {
+    margin:0;
+    background-color: #5e4242;
+}
+#above-map{
+    position: absolute;
+    z-index: 10;
+}
+#container{
+    font-family: game;
+    word-spacing: 200%;
+    letter-spacing: 1px;
+    position: relative;
+    margin:0 auto;
+    width:800px;
+    height:100vh;
+    background-color: rgb(160, 93, 55);
+    border:3px outset rgb(214, 116, 59);
+}
+.starting-screen-container{
+    background-color:  rgba(202, 143, 101, 0.616);
+    width:800px;
+    height:500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.starting-screen-box{
+    background-color:rgb(214, 116, 59);
+    width:35%;
+    height:20%;
+    border:5px outset rgb(168, 127, 100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-avatar{
+    margin-top:15px;
+    border:3px outset rgb(155, 97, 59);
+    width:150px;
+    height:auto;
+}
+.btn{
+    background-color:  rgb(214, 142, 94);
+    color:rgb(148, 77, 34);
+    font-family: game;
+    font-size: 160%;
+word-spacing: 200%;
+    border:5px outset rgb(155, 97, 59);
+}
+.btn:hover{
+    background-color:  rgb(196, 126, 79);
+}
+.btn:disabled,
+.btn[disabled]{
+    background-color:  rgb(177, 137, 111);
+    color:rgb(110, 100, 93);
+}
+.btn-rest{
+    width:110px;
+    height:35px;
+}
+.btn-load-save{
+    font-size: 20px;
+}
+.zoom-box{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.zoom1 {
+    transform: scale(1);  
+    transform-origin: 50% 0; 
+ }
+ .zoom2 {
+    transform: scale(1.2);  
+    transform-origin: 50% 0; 
+ }
+ .zoom3 {
+    transform: scale(1.5);  
+    transform-origin: 50% 0; 
+ }
+
+.rest-or-save-container{
+    width:800px;
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.rest-or-save-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:  rgb(148, 103, 73);
+    border:5px outset rgb(107, 66, 38);
+    width:350px;
+    height:50px;
+}
+
+.d-none{
+    display:none;
+}
+.flee-fail{
+    color:red;
+}
+.flee-succsess{
+    color:green;
+}
+.saves-container{
+    background-color:  rgb(148, 103, 73);
+    color: #3b2929;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+    width:100%;
+    height:500px;
+    overflow-y: scroll; overflow-x:hidden;
+}
+.save-row{
+    width:100%;
+    padding:10px;
+    margin-top:3%;
+    word-spacing:200%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(165, 116, 83);
+    border:2px solid rgb(109, 84, 68);
+}
