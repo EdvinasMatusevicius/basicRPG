@@ -2,7 +2,7 @@ let invOpen = false;
 let shopOpen = false;
 let inventory=[];
 let inventoryCoins = 1000;
-const inventoryTh = '<div class="table-container"><table> <thead>' +
+const inventoryTh = '<div class="table-container"><table class="table"> <thead>' +
         '<tr> <th>Item</th> <th>Amount</th> <th></th> </tr> </thead> <tbody class="table-content"></tbody> </table><div class="inv-quit"><a href="#" onclick="quitInvBtn()"><img src="img/quitImg.png"></a></div><div class="inv-coins">Coins: ' + inventoryCoins + '</div>';
 let inventoryCoinsUpdate = () => {
         document.querySelector('.inv-coins').innerHTML = 'Coins: ' + inventoryCoins;
@@ -149,9 +149,9 @@ class Item {
 };
 
 let itemList = [
-        new Item("potionS", '<div class="item-square"><img src="img/potionS.png" class="potion-img"><h3>Small potion</h3></div>', function () { playerHeal(40) }),
-        new Item("potionM", '<div class="item-square"><img src="img/potionM.png" class="potion-img"><h3>Medium potion</h3></div>', function () { playerHeal(100) }),
-        new Item("potionL", '<div class="item-square"><img src="img/potionL.png" class="potion-img"><h3>Large potion</h3></div>', function () { playerHeal(200) })
+        new Item("potionS", '<div class="item-square"><img src="img/potionS.png" class="potion-img"><h3 class="potion-name">Small potion</h3></div>', function () { playerHeal(40) }),
+        new Item("potionM", '<div class="item-square"><img src="img/potionM.png" class="potion-img"><h3 class="potion-name">Medium potion</h3></div>', function () { playerHeal(100) }),
+        new Item("potionL", '<div class="item-square"><img src="img/potionL.png" class="potion-img"><h3 class="potion-name">Large potion</h3></div>', function () { playerHeal(200) })
 ];
 
 let renderInventory = () => {

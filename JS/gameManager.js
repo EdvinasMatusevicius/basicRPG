@@ -154,7 +154,7 @@ let restOrSave = ()=>{
     restBtn.setAttribute("onclick","playerFullRest();");
     let saveBtn = document.createElement('button');
     saveBtn.className = 'btn btn-rest';
-    saveBtn.innerHTML='Save#';
+    saveBtn.innerHTML='Save';
     saveBtn.setAttribute("onclick","save();");
     let cancelBtn = document.createElement('button');      
     cancelBtn.className = 'btn btn-rest';

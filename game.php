@@ -31,14 +31,14 @@ include "includes/gameSave.php";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-    <script src="js/gameManager.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/Player.js"></script>
-    <script src="js/inventory.js"></script>
-    <script src="js/Enemy.js"></script>
-    <script src="js/battleLogic.js"></script>
-    <script src="js/arena.js"></script>
-    <script src="js/saveLoad.js"></script>
+    <script src="JS/gameManager.js"></script>
+    <script src="JS/map.js"></script>
+    <script src="JS/Player.js"></script>
+    <script src="JS/inventory.js"></script>
+    <script src="JS/Enemy.js"></script>
+    <script src="JS/battleLogic.js"></script>
+    <script src="JS/arena.js"></script>
+    <script src="JS/saveLoad.js"></script>
 </body>
 
 </html>

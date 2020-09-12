@@ -46,12 +46,19 @@
 .table-container table{
     width:95%;
 }
-.item-square{
-    display:flex;
-    flex-direction: row;
-    justify-content:space-evenly;
+.table{
+    margin-top: 1rem;
 }
-
+.table-content{
+    padding-top: 10rem;
+}
+.item-square{
+    display:grid;
+    grid-template-columns: 4rem auto;
+}
+.potion-name{
+    margin:0;
+}
 .inv-coins{
     font-family: game;
     font-size: 150%;
